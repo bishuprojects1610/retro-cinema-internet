@@ -1,0 +1,23 @@
+.card{
+	border:1px solid black;
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-right:20px;
+	margin-left:20px;
+	opacity: .8;
+	box-shadow: 10px 10px 5px white;
+}
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 90%;
+    min-height: 90%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+}

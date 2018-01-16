@@ -1,0 +1,90 @@
+html, body
+{
+	height:100%;
+}
+body {
+	
+	background-color: #0B0719;
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+}
+
+
+a, a:link, a:visited { color: #ffffff; font-weight: normal; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+p { margin: 0 0 10px 0; padding: 0; color:#ffffff}
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+
+h1, h2, h3, h4, h5, h6 { color: #ffffff; font-weight: normal; }
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_frame { display: inline-block; padding: 5px; position: relative; width: 230px; height: 230px; margin-bottom: 15px }
+.image_frame span { position: absolute; top: 0; left: 0; width: 240px; height: 239px; background: url(images/tooplate_frame.png) }
+.image_frame img { width: 230px; height: 230px; }
+.image_fl { float: left; margin: 3px 30px 0 0 }
+.image_fr { float: right; margin: 3px 0 0 30px }
+
+
+#tooplate_wrapper { 
+	width: 980px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	position: relative;
+
+	
+}
+
+.tooplate_wb {
+	position: absolute;
+	top: 200px;
+	width: 80px;
+    height: 898px;
+}
+
+#tooplate_main {
+	clear: both;
+	width: 980px;
+	padding: 20px 0 40px 60px;
+	
+}
+
+#tooplate_content {
+	float: left;
+	width: 520px;
+}
+
+
+#tooplate_footer_wrapper {
+	clear: both;
+	width: 100%;
+	height: 80px;
+	background: url(images/tooplate_footer.png) top center no-repeat;
+}
+
+#tooplate_footer {
+	clear: both;
+	width: 880px;
+	padding: 10px 60px;	
+	margin: 0 auto;
+	color: #423f3f;
+	text-align: center;
+}
+
+#tooplate_footer a { 
+	color: #423f3f;
+}
